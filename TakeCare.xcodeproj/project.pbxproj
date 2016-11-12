@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0CE58ED1DD63F5E00359485 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE58EC1DD63F5E00359485 /* main.m */; };
+		B0CE58F01DD63F5E00359485 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE58EF1DD63F5E00359485 /* AppDelegate.m */; };
+		B0CE58F61DD63F5E00359485 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE58F41DD63F5E00359485 /* Main.storyboard */; };
+		B0CE58F91DD63F5E00359485 /* TakeCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0CE58F71DD63F5E00359485 /* TakeCare.xcdatamodeld */; };
+		B0CE58FB1DD63F5E00359485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CE58FA1DD63F5E00359485 /* Assets.xcassets */; };
+		B0CE58FE1DD63F5E00359485 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE58FC1DD63F5E00359485 /* LaunchScreen.storyboard */; };
+		B0CE59091DD63F5F00359485 /* TakeCareTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59081DD63F5F00359485 /* TakeCareTests.m */; };
+		B0CE59141DD63F5F00359485 /* TakeCareUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59131DD63F5F00359485 /* TakeCareUITests.m */; };
+		B0CE59241DD63FC200359485 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59231DD63FC200359485 /* LoginViewController.m */; };
+		B0CE59251DD63FC200359485 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59231DD63FC200359485 /* LoginViewController.m */; };
+		B0CE59261DD63FC200359485 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59231DD63FC200359485 /* LoginViewController.m */; };
+		B0CE592A1DD6404800359485 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59291DD6404800359485 /* ServiceManager.m */; };
+		B0CE592B1DD6404800359485 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59291DD6404800359485 /* ServiceManager.m */; };
+		B0CE592C1DD6404800359485 /* ServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59291DD6404800359485 /* ServiceManager.m */; };
+		B0CE592F1DD640A400359485 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE592E1DD640A400359485 /* TCViewController.m */; };
+		B0CE59301DD640A400359485 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE592E1DD640A400359485 /* TCViewController.m */; };
+		B0CE59311DD640A400359485 /* TCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE592E1DD640A400359485 /* TCViewController.m */; };
+		B0CE59351DD64B6900359485 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59341DD64B6900359485 /* HomeViewController.m */; };
+		B0CE59361DD64B6900359485 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59341DD64B6900359485 /* HomeViewController.m */; };
+		B0CE59371DD64B6900359485 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CE59341DD64B6900359485 /* HomeViewController.m */; };
+		B0CEDAB01DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */; };
+		B0CEDAB11DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */; };
+		B0CEDAB21DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0CE59051DD63F5F00359485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CE58E01DD63F5E00359485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CE58E71DD63F5E00359485;
+			remoteInfo = TakeCare;
+		};
+		B0CE59101DD63F5F00359485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0CE58E01DD63F5E00359485 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0CE58E71DD63F5E00359485;
+			remoteInfo = TakeCare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0CE58E81DD63F5E00359485 /* TakeCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakeCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE58EC1DD63F5E00359485 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0CE58EE1DD63F5E00359485 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0CE58EF1DD63F5E00359485 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0CE58F51DD63F5E00359485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0CE58F81DD63F5E00359485 /* TakeCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TakeCare.xcdatamodel; sourceTree = "<group>"; };
+		B0CE58FA1DD63F5E00359485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0CE58FD1DD63F5E00359485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0CE58FF1DD63F5E00359485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE59041DD63F5F00359485 /* TakeCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE59081DD63F5F00359485 /* TakeCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeCareTests.m; sourceTree = "<group>"; };
+		B0CE590A1DD63F5F00359485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE590F1DD63F5F00359485 /* TakeCareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TakeCareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE59131DD63F5F00359485 /* TakeCareUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TakeCareUITests.m; sourceTree = "<group>"; };
+		B0CE59151DD63F5F00359485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CE59221DD63FC200359485 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		B0CE59231DD63FC200359485 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		B0CE59281DD6404800359485 /* ServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceManager.h; sourceTree = "<group>"; };
+		B0CE59291DD6404800359485 /* ServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceManager.m; sourceTree = "<group>"; };
+		B0CE592D1DD640A400359485 /* TCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCViewController.h; sourceTree = "<group>"; };
+		B0CE592E1DD640A400359485 /* TCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCViewController.m; sourceTree = "<group>"; };
+		B0CE59331DD64B6900359485 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		B0CE59341DD64B6900359485 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0CE58E51DD63F5E00359485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CEDAB01DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE59011DD63F5F00359485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CEDAB11DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE590C1DD63F5F00359485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CEDAB21DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0CE58DF1DD63F5E00359485 = {
+			isa = PBXGroup;
+			children = (
+				B0CE58EA1DD63F5E00359485 /* TakeCare */,
+				B0CE59071DD63F5F00359485 /* TakeCareTests */,
+				B0CE59121DD63F5F00359485 /* TakeCareUITests */,
+				B0CE58E91DD63F5E00359485 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0CE58E91DD63F5E00359485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE58E81DD63F5E00359485 /* TakeCare.app */,
+				B0CE59041DD63F5F00359485 /* TakeCareTests.xctest */,
+				B0CE590F1DD63F5F00359485 /* TakeCareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0CE58EA1DD63F5E00359485 /* TakeCare */ = {
+			isa = PBXGroup;
+			children = (
+				B0CEDAAE1DD6B9C700AFEDE9 /* Frameworks */,
+				B0CE58EE1DD63F5E00359485 /* AppDelegate.h */,
+				B0CE58EF1DD63F5E00359485 /* AppDelegate.m */,
+				B0CE59271DD6401B00359485 /* ServiceClass */,
+				B0CE59211DD63F8400359485 /* Controllers */,
+				B0CE58F41DD63F5E00359485 /* Main.storyboard */,
+				B0CE58FA1DD63F5E00359485 /* Assets.xcassets */,
+				B0CE58FC1DD63F5E00359485 /* LaunchScreen.storyboard */,
+				B0CE58FF1DD63F5E00359485 /* Info.plist */,
+				B0CE58F71DD63F5E00359485 /* TakeCare.xcdatamodeld */,
+				B0CE58EB1DD63F5E00359485 /* Supporting Files */,
+			);
+			path = TakeCare;
+			sourceTree = "<group>";
+		};
+		B0CE58EB1DD63F5E00359485 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE58EC1DD63F5E00359485 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0CE59071DD63F5F00359485 /* TakeCareTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE59081DD63F5F00359485 /* TakeCareTests.m */,
+				B0CE590A1DD63F5F00359485 /* Info.plist */,
+			);
+			path = TakeCareTests;
+			sourceTree = "<group>";
+		};
+		B0CE59121DD63F5F00359485 /* TakeCareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE59131DD63F5F00359485 /* TakeCareUITests.m */,
+				B0CE59151DD63F5F00359485 /* Info.plist */,
+			);
+			path = TakeCareUITests;
+			sourceTree = "<group>";
+		};
+		B0CE59211DD63F8400359485 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE592D1DD640A400359485 /* TCViewController.h */,
+				B0CE592E1DD640A400359485 /* TCViewController.m */,
+				B0CE59321DD640B600359485 /* Screens */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B0CE59271DD6401B00359485 /* ServiceClass */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE59281DD6404800359485 /* ServiceManager.h */,
+				B0CE59291DD6404800359485 /* ServiceManager.m */,
+			);
+			name = ServiceClass;
+			sourceTree = "<group>";
+		};
+		B0CE59321DD640B600359485 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B0CE59221DD63FC200359485 /* LoginViewController.h */,
+				B0CE59231DD63FC200359485 /* LoginViewController.m */,
+				B0CE59331DD64B6900359485 /* HomeViewController.h */,
+				B0CE59341DD64B6900359485 /* HomeViewController.m */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		B0CEDAAE1DD6B9C700AFEDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0CE58E71DD63F5E00359485 /* TakeCare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE59181DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCare" */;
+			buildPhases = (
+				B0CE58E41DD63F5E00359485 /* Sources */,
+				B0CE58E51DD63F5E00359485 /* Frameworks */,
+				B0CE58E61DD63F5E00359485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakeCare;
+			productName = TakeCare;
+			productReference = B0CE58E81DD63F5E00359485 /* TakeCare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0CE59031DD63F5F00359485 /* TakeCareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE591B1DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCareTests" */;
+			buildPhases = (
+				B0CE59001DD63F5F00359485 /* Sources */,
+				B0CE59011DD63F5F00359485 /* Frameworks */,
+				B0CE59021DD63F5F00359485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CE59061DD63F5F00359485 /* PBXTargetDependency */,
+			);
+			name = TakeCareTests;
+			productName = TakeCareTests;
+			productReference = B0CE59041DD63F5F00359485 /* TakeCareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0CE590E1DD63F5F00359485 /* TakeCareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0CE591E1DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCareUITests" */;
+			buildPhases = (
+				B0CE590B1DD63F5F00359485 /* Sources */,
+				B0CE590C1DD63F5F00359485 /* Frameworks */,
+				B0CE590D1DD63F5F00359485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0CE59111DD63F5F00359485 /* PBXTargetDependency */,
+			);
+			name = TakeCareUITests;
+			productName = TakeCareUITests;
+			productReference = B0CE590F1DD63F5F00359485 /* TakeCareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0CE58E01DD63F5E00359485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "HariKrishna Panicker";
+				TargetAttributes = {
+					B0CE58E71DD63F5E00359485 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = F33FBA68D6;
+					};
+					B0CE59031DD63F5F00359485 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B0CE58E71DD63F5E00359485;
+					};
+					B0CE590E1DD63F5F00359485 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B0CE58E71DD63F5E00359485;
+					};
+				};
+			};
+			buildConfigurationList = B0CE58E31DD63F5E00359485 /* Build configuration list for PBXProject "TakeCare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0CE58DF1DD63F5E00359485;
+			productRefGroup = B0CE58E91DD63F5E00359485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0CE58E71DD63F5E00359485 /* TakeCare */,
+				B0CE59031DD63F5F00359485 /* TakeCareTests */,
+				B0CE590E1DD63F5F00359485 /* TakeCareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0CE58E61DD63F5E00359485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE58FE1DD63F5E00359485 /* LaunchScreen.storyboard in Resources */,
+				B0CE58FB1DD63F5E00359485 /* Assets.xcassets in Resources */,
+				B0CE58F61DD63F5E00359485 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE59021DD63F5F00359485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE590D1DD63F5F00359485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0CE58E41DD63F5E00359485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE58F91DD63F5E00359485 /* TakeCare.xcdatamodeld in Sources */,
+				B0CE58F01DD63F5E00359485 /* AppDelegate.m in Sources */,
+				B0CE592A1DD6404800359485 /* ServiceManager.m in Sources */,
+				B0CE592F1DD640A400359485 /* TCViewController.m in Sources */,
+				B0CE58ED1DD63F5E00359485 /* main.m in Sources */,
+				B0CE59351DD64B6900359485 /* HomeViewController.m in Sources */,
+				B0CE59241DD63FC200359485 /* LoginViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE59001DD63F5F00359485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE592B1DD6404800359485 /* ServiceManager.m in Sources */,
+				B0CE59251DD63FC200359485 /* LoginViewController.m in Sources */,
+				B0CE59091DD63F5F00359485 /* TakeCareTests.m in Sources */,
+				B0CE59361DD64B6900359485 /* HomeViewController.m in Sources */,
+				B0CE59301DD640A400359485 /* TCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0CE590B1DD63F5F00359485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0CE592C1DD6404800359485 /* ServiceManager.m in Sources */,
+				B0CE59261DD63FC200359485 /* LoginViewController.m in Sources */,
+				B0CE59141DD63F5F00359485 /* TakeCareUITests.m in Sources */,
+				B0CE59371DD64B6900359485 /* HomeViewController.m in Sources */,
+				B0CE59311DD640A400359485 /* TCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0CE59061DD63F5F00359485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CE58E71DD63F5E00359485 /* TakeCare */;
+			targetProxy = B0CE59051DD63F5F00359485 /* PBXContainerItemProxy */;
+		};
+		B0CE59111DD63F5F00359485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0CE58E71DD63F5E00359485 /* TakeCare */;
+			targetProxy = B0CE59101DD63F5F00359485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0CE58F41DD63F5E00359485 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE58F51DD63F5E00359485 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0CE58FC1DD63F5E00359485 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0CE58FD1DD63F5E00359485 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0CE59161DD63F5F00359485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0CE59171DD63F5F00359485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0CE59191DD63F5F00359485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0CE591A1DD63F5F00359485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0CE591C1DD63F5F00359485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeCare.app/TakeCare";
+			};
+			name = Debug;
+		};
+		B0CE591D1DD63F5F00359485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TakeCare.app/TakeCare";
+			};
+			name = Release;
+		};
+		B0CE591F1DD63F5F00359485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TakeCare;
+			};
+			name = Debug;
+		};
+		B0CE59201DD63F5F00359485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TakeCare",
+				);
+				INFOPLIST_FILE = TakeCareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TakeCare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0CE58E31DD63F5E00359485 /* Build configuration list for PBXProject "TakeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE59161DD63F5F00359485 /* Debug */,
+				B0CE59171DD63F5F00359485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE59181DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE59191DD63F5F00359485 /* Debug */,
+				B0CE591A1DD63F5F00359485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE591B1DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE591C1DD63F5F00359485 /* Debug */,
+				B0CE591D1DD63F5F00359485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE591E1DD63F5F00359485 /* Build configuration list for PBXNativeTarget "TakeCareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0CE591F1DD63F5F00359485 /* Debug */,
+				B0CE59201DD63F5F00359485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0CE58F71DD63F5E00359485 /* TakeCare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0CE58F81DD63F5E00359485 /* TakeCare.xcdatamodel */,
+			);
+			currentVersion = B0CE58F81DD63F5E00359485 /* TakeCare.xcdatamodel */;
+			path = TakeCare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0CE58E01DD63F5E00359485 /* Project object */;
+}

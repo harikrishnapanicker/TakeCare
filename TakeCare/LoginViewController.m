@@ -15,6 +15,9 @@
 @property (nonatomic, strong) IBOutlet UITextField *phoneTextField;
 @property (nonatomic, strong) IBOutlet UISegmentedControl *segmentCop;
 
+@property (nonatomic, strong) NSString *type;
+@property (nonatomic, strong) NSString *gender;
+
 @end
 
 @implementation LoginViewController
@@ -48,8 +51,20 @@
     } else if ([_phoneTextField.text isEqualToString:@""] || _phoneTextField.text.length != 10) {
         [self showAlertMessage:@"Invalid PhoneNumber"];
     } else {
-        [self moveToHome];
+        [self registerMe:_nameTextField.text phone:_phoneTextField.text type:_type gender:_gender];
     }
+}
+
+- (void)registerMe:(NSString *)name
+             phone:(NSString *)phone
+              type:(NSString *)type
+            gender:(NSString *)gender {
+    NSDictionary *dict = [[NSDictionary alloc]initWithObjectsAndKeys:name,@"name",
+                          phone,@"number",
+                          type,@"type",
+                          gender,@"gender",nil];
+    
+    [self fetchDataFromServer:dict];
 }
 
 - (void)moveToHome {
@@ -62,10 +77,10 @@
     NSInteger selectedSegment = sender.selectedSegmentIndex;
     
     if (selectedSegment == 0) {
-        
+      self.type = @"Cop";
     }
     else{
-        
+        self.type = @"citizen";
     }
 }
 
@@ -73,10 +88,10 @@
     NSInteger selectedSegment = sender.selectedSegmentIndex;
     
     if (selectedSegment == 0) {
-        
+        self.gender = @"male";
     }
     else{
-        
+        self.gender = @"female";
     }
 }
 

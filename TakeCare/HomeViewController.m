@@ -6,7 +6,6 @@
 //  Copyright © 2016 HariKrishna Panicker. All rights reserved.
 //
 
-// AIzaSyBAchO0zlymHjPnOj0OxKszPad-4WvhUyo  -google api key
 
 
 #import "HomeViewController.h"
@@ -15,8 +14,10 @@
 
 @interface HomeViewController ()
 {
-    float lat;
-    float lon;
+    double currentLat;
+    double currentLon;
+    double destinationLat;
+    double destinationLon;
 }
 @property (nonatomic,strong) CLLocationManager *locationManager;
 @property (strong, nonatomic) GMSMapView *mapView;
@@ -31,7 +32,7 @@
     [super viewDidLoad];
     [self loadLatAnLlong];
     [self loadView];
-
+    
 }
 
 -(void)loadLatAnLlong {
@@ -39,26 +40,29 @@
     NSString *latitude = [NSString stringWithFormat:@"%f", coordinate.latitude];
     NSString *longitude = [NSString stringWithFormat:@"%f", coordinate.longitude];
     
-    lat = coordinate.latitude;
-    lon = coordinate.longitude;
+    currentLat = 9.958557;//coordinate.latitude;
+    currentLon = 76.295028;//coordinate.longitude;
 }
 
 - (void)loadView {
     
     // Create a GMSCameraPosition that tells the map to display the
     // coordinate -33.86,151.20 at zoom level 6.
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:lat
-                                                            longitude:lon                                                                 zoom:6];
-     self.mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:currentLat
+                                                            longitude:currentLon                                                                 zoom:18];
+    self.mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    self.mapView.delegate = self;
     self.mapView.myLocationEnabled = YES;
     self.view = self.mapView;
     
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
-    marker.position = CLLocationCoordinate2DMake(lat, lon);
+    marker.position = CLLocationCoordinate2DMake(currentLat, currentLon);
     marker.title = @"ME";
-    marker.snippet = @" ";
+    //    marker.snippet = @" ";
     marker.map = self.mapView;
+    
+    [self showAlertMessage:@"Tap your destination"];
 }
 -(CLLocationCoordinate2D) getLocation{
     CLLocationManager *locationManager = [[CLLocationManager alloc] init];
@@ -75,7 +79,7 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
- 
+    
 }
 
 
@@ -95,8 +99,18 @@
     
     if (currentLocation != nil) {
         NSString * longitudeLabel = [NSString stringWithFormat:@"%.8f", currentLocation.coordinate.longitude];
-//        NSString * latitudeLabel = [NSString stringWithFormat:@"%.8f", currentLocation.coordinate.latitude];
+        //        NSString * latitudeLabel = [NSString stringWithFormat:@"%.8f", currentLocation.coordinate.latitude];
     }
 }
 
+-(void)mapView:(GMSMapView *)mapView didTapAtCoordinate:(CLLocationCoordinate2D)coordinate{
+    destinationLat = coordinate.latitude;
+    destinationLon = coordinate.longitude;
+    
+    GMSMarker *marker = [[GMSMarker alloc] init];
+    marker.position = CLLocationCoordinate2DMake(destinationLat, destinationLon);
+    marker.title = @"Destination";
+    marker.map = self.mapView;
+    //DO SOMETHING HERE WITH THAT INFO
+}
 @end

@@ -26,7 +26,8 @@
     [super didReceiveMemoryWarning];
     
 }
-- (void)fetchDataFromServer:(NSString *)requestParameter {
+- (void)fetchDataFromServer:(NSDictionary *)requestParameter {
+    [self showActivityIndicator];
     manager = [[ServiceManager alloc]init];
     manager.delegate = self;
     [manager getdata:requestParameter];

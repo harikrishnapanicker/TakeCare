@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KkG-M0-M7s">
-                                <rect key="frame" x="30" y="30" width="540" height="540"/>
+                                <rect key="frame" x="30" y="140" width="540" height="320"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hari" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eCI-GB-elM">
                                         <rect key="frame" x="8" y="89" width="524" height="30"/>
@@ -72,7 +72,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZD2-YH-N3i">
-                                        <rect key="frame" x="247" y="502" width="46" height="30"/>
+                                        <rect key="frame" x="247" y="282" width="46" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="OAM-zu-JWL"/>
                                             <constraint firstAttribute="width" constant="46" id="dra-n8-csS"/>
@@ -104,6 +104,7 @@
                                     <constraint firstItem="MGF-Ul-BJa" firstAttribute="top" secondItem="eCI-GB-elM" secondAttribute="bottom" constant="14" id="0Uf-Ud-VcA"/>
                                     <constraint firstAttribute="trailing" secondItem="eCI-GB-elM" secondAttribute="trailing" constant="8" id="CBE-aZ-aHL"/>
                                     <constraint firstAttribute="bottom" secondItem="ZD2-YH-N3i" secondAttribute="bottom" constant="8" id="GBx-rm-aLc"/>
+                                    <constraint firstAttribute="height" constant="320" id="GZ8-Ka-YEM"/>
                                     <constraint firstItem="eCI-GB-elM" firstAttribute="top" secondItem="KkG-M0-M7s" secondAttribute="top" constant="89" id="Grh-sa-wLS"/>
                                     <constraint firstItem="aeK-w4-XZV" firstAttribute="top" secondItem="eCI-GB-elM" secondAttribute="bottom" constant="13" id="MWP-nt-Qu7"/>
                                     <constraint firstItem="pAB-uS-y6M" firstAttribute="leading" secondItem="KkG-M0-M7s" secondAttribute="leading" constant="8" id="OOe-3P-Tt8"/>
@@ -123,9 +124,8 @@
                         <constraints>
                             <constraint firstItem="KkG-M0-M7s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="1KC-Lj-bfQ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wZT-40-Olo" secondAttribute="bottom" id="6L2-cZ-BEl"/>
-                            <constraint firstItem="KkG-M0-M7s" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="FF7-VW-TnS"/>
                             <constraint firstAttribute="trailing" secondItem="wZT-40-Olo" secondAttribute="trailing" id="IFV-Op-8z6"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KkG-M0-M7s" secondAttribute="bottom" constant="30" id="mGa-6a-zu3"/>
+                            <constraint firstItem="KkG-M0-M7s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fiK-JC-bhH"/>
                             <constraint firstItem="wZT-40-Olo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oij-et-MhU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KkG-M0-M7s" secondAttribute="trailing" constant="10" id="qBO-hf-IT4"/>
                             <constraint firstItem="wZT-40-Olo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sci-nf-JOw"/>
@@ -153,7 +153,21 @@
                     <view key="view" contentMode="scaleToFill" id="hPI-FA-AEd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GbB-s6-3OD">
+                                <rect key="frame" x="0.0" y="540" width="600" height="60"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="xiW-ZM-OzY"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="htk-A6-XM6" firstAttribute="top" secondItem="GbB-s6-3OD" secondAttribute="bottom" id="4Pw-NA-cMG"/>
+                            <constraint firstItem="GbB-s6-3OD" firstAttribute="leading" secondItem="hPI-FA-AEd" secondAttribute="leadingMargin" constant="-20" id="OYv-6j-b9d"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GbB-s6-3OD" secondAttribute="trailing" constant="-20" id="ftY-bH-eRF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k77-xy-cCx" sceneMemberID="firstResponder"/>

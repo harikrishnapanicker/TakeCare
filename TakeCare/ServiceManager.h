@@ -19,7 +19,7 @@
 
 @property (nonatomic,strong)id <ServiceDelegate>delegate;
 
--(void) getdata:(NSString *)type;
+-(void) getdata:(NSDictionary *)mapData;
 
 + (NSDictionary *)getLocalDataFromFile:(NSString *)fileName;
 

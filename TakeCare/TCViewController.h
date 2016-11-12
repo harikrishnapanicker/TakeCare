@@ -10,7 +10,7 @@
 
 @interface TCViewController : UIViewController
 
-- (void)fetchDataFromServer:(NSString *)requestParameter;
+- (void)fetchDataFromServer:(NSDictionary *)requestParameter;
 
 - (void)showActivityIndicator;
 
@@ -20,7 +20,7 @@
 
 - (void)failureResponse:(NSDictionary *)response;
 
-- (NSDictionary *)getMockData:(NSString *)file;
+- (NSDictionary *)getMockData:(NSDictionary *)file;
 
 - (void)showAlertMessage:(NSString *)message;
 

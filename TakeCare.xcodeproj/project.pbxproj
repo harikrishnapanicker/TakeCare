@@ -49,6 +49,16 @@
 		B0CEDAD01DD6C66500AFEDE9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDACF1DD6C66500AFEDE9 /* QuartzCore.framework */; };
 		B0CEDAD21DD6C67500AFEDE9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAD11DD6C67500AFEDE9 /* SystemConfiguration.framework */; };
 		B0CEDAD41DD6C68000AFEDE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAD31DD6C68000AFEDE9 /* UIKit.framework */; };
+		B0CEDAD51DD6D25700AFEDE9 /* GoogleMaps.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0CEDAB31DD6C58300AFEDE9 /* GoogleMaps.framework */; };
+		B0CEDAD61DD6D25700AFEDE9 /* GoogleMapsCore.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0CEDAB41DD6C58300AFEDE9 /* GoogleMapsCore.framework */; };
+		B0CEDAD71DD6D25700AFEDE9 /* GoogleMapsBase.framework in Resources */ = {isa = PBXBuildFile; fileRef = B0CEDAAF1DD6BA0000AFEDE9 /* GoogleMapsBase.framework */; };
+		B0CEDADD1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDADC1DD6DCE300AFEDE9 /* GooglePlacePicker.framework */; };
+		B0CEDADE1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDADC1DD6DCE300AFEDE9 /* GooglePlacePicker.framework */; };
+		B0CEDADF1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDADC1DD6DCE300AFEDE9 /* GooglePlacePicker.framework */; };
+		B0CEDAE11DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAE01DD6DCF900AFEDE9 /* GooglePlaces.framework */; };
+		B0CEDAE21DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAE01DD6DCF900AFEDE9 /* GooglePlaces.framework */; };
+		B0CEDAE31DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CEDAE01DD6DCF900AFEDE9 /* GooglePlaces.framework */; };
+		B0CEDAE51DD6DDB600AFEDE9 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B0CEDAE41DD6DDB600AFEDE9 /* GoogleMaps.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +118,9 @@
 		B0CEDACF1DD6C66500AFEDE9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B0CEDAD11DD6C67500AFEDE9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B0CEDAD31DD6C68000AFEDE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B0CEDADC1DD6DCE300AFEDE9 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlacePicker.framework; sourceTree = "<group>"; };
+		B0CEDAE01DD6DCF900AFEDE9 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlaces.framework; sourceTree = "<group>"; };
+		B0CEDAE41DD6DDB600AFEDE9 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = TakeCare/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +128,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CEDAC21DD6C60500AFEDE9 /* CoreLocation.framework in Frameworks */,
 				B0CEDAD41DD6C68000AFEDE9 /* UIKit.framework in Frameworks */,
+				B0CEDADD1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */,
 				B0CEDAD21DD6C67500AFEDE9 /* SystemConfiguration.framework in Frameworks */,
 				B0CEDAD01DD6C66500AFEDE9 /* QuartzCore.framework in Frameworks */,
 				B0CEDACE1DD6C65D00AFEDE9 /* OpenGLES.framework in Frameworks */,
@@ -124,7 +139,7 @@
 				B0CEDAC81DD6C62300AFEDE9 /* ImageIO.framework in Frameworks */,
 				B0CEDAC61DD6C61D00AFEDE9 /* GLKit.framework in Frameworks */,
 				B0CEDAC41DD6C60B00AFEDE9 /* CoreText.framework in Frameworks */,
-				B0CEDAC21DD6C60500AFEDE9 /* CoreLocation.framework in Frameworks */,
+				B0CEDAE11DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */,
 				B0CEDAC01DD6C5FF00AFEDE9 /* CoreGraphics.framework in Frameworks */,
 				B0CEDABE1DD6C5F700AFEDE9 /* CoreData.framework in Frameworks */,
 				B0CEDABC1DD6C5E100AFEDE9 /* Accelerate.framework in Frameworks */,
@@ -139,6 +154,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CEDAB61DD6C58300AFEDE9 /* GoogleMaps.framework in Frameworks */,
+				B0CEDADE1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */,
+				B0CEDAE21DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */,
 				B0CEDAB91DD6C58300AFEDE9 /* GoogleMapsCore.framework in Frameworks */,
 				B0CEDAB11DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */,
 			);
@@ -149,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CEDAB71DD6C58300AFEDE9 /* GoogleMaps.framework in Frameworks */,
+				B0CEDADF1DD6DCE300AFEDE9 /* GooglePlacePicker.framework in Frameworks */,
+				B0CEDAE31DD6DCF900AFEDE9 /* GooglePlaces.framework in Frameworks */,
 				B0CEDABA1DD6C58300AFEDE9 /* GoogleMapsCore.framework in Frameworks */,
 				B0CEDAB21DD6BA0000AFEDE9 /* GoogleMapsBase.framework in Frameworks */,
 			);
@@ -160,6 +179,7 @@
 		B0CE58DF1DD63F5E00359485 = {
 			isa = PBXGroup;
 			children = (
+				B0CEDAE41DD6DDB600AFEDE9 /* GoogleMaps.bundle */,
 				B0CE58EA1DD63F5E00359485 /* TakeCare */,
 				B0CE59071DD63F5F00359485 /* TakeCareTests */,
 				B0CE59121DD63F5F00359485 /* TakeCareUITests */,
@@ -254,6 +274,8 @@
 		B0CEDAAE1DD6B9C700AFEDE9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0CEDAE01DD6DCF900AFEDE9 /* GooglePlaces.framework */,
+				B0CEDADC1DD6DCE300AFEDE9 /* GooglePlacePicker.framework */,
 				B0CEDAD31DD6C68000AFEDE9 /* UIKit.framework */,
 				B0CEDAD11DD6C67500AFEDE9 /* SystemConfiguration.framework */,
 				B0CEDACF1DD6C66500AFEDE9 /* QuartzCore.framework */,
@@ -378,6 +400,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CEDAD51DD6D25700AFEDE9 /* GoogleMaps.framework in Resources */,
+				B0CEDAD61DD6D25700AFEDE9 /* GoogleMapsCore.framework in Resources */,
+				B0CEDAE51DD6DDB600AFEDE9 /* GoogleMaps.bundle in Resources */,
+				B0CEDAD71DD6D25700AFEDE9 /* GoogleMapsBase.framework in Resources */,
 				B0CE58FE1DD63F5E00359485 /* LaunchScreen.storyboard in Resources */,
 				B0CE58FB1DD63F5E00359485 /* Assets.xcassets in Resources */,
 				B0CE58F61DD63F5E00359485 /* Main.storyboard in Resources */,
@@ -570,7 +596,7 @@
 				INFOPLIST_FILE = TakeCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApp.TakeCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -587,7 +613,7 @@
 				INFOPLIST_FILE = TakeCare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Test.TakeCare;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MyApp.TakeCare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

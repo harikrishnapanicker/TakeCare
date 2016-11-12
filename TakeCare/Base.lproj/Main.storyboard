@@ -18,7 +18,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KkG-M0-M7s">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="wZT-40-Olo">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KkG-M0-M7s">
                                 <rect key="frame" x="30" y="30" width="540" height="540"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hari" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eCI-GB-elM">
@@ -96,7 +99,7 @@
                                         </connections>
                                     </segmentedControl>
                                 </subviews>
-                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="MGF-Ul-BJa" firstAttribute="top" secondItem="eCI-GB-elM" secondAttribute="bottom" constant="14" id="0Uf-Ud-VcA"/>
                                     <constraint firstAttribute="trailing" secondItem="eCI-GB-elM" secondAttribute="trailing" constant="8" id="CBE-aZ-aHL"/>
@@ -119,9 +122,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="KkG-M0-M7s" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="1KC-Lj-bfQ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wZT-40-Olo" secondAttribute="bottom" id="6L2-cZ-BEl"/>
                             <constraint firstItem="KkG-M0-M7s" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="FF7-VW-TnS"/>
+                            <constraint firstAttribute="trailing" secondItem="wZT-40-Olo" secondAttribute="trailing" id="IFV-Op-8z6"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="KkG-M0-M7s" secondAttribute="bottom" constant="30" id="mGa-6a-zu3"/>
+                            <constraint firstItem="wZT-40-Olo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="oij-et-MhU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="KkG-M0-M7s" secondAttribute="trailing" constant="10" id="qBO-hf-IT4"/>
+                            <constraint firstItem="wZT-40-Olo" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sci-nf-JOw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hiL-8r-c6j"/>
@@ -173,4 +180,7 @@
             <point key="canvasLocation" x="245" y="322"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg" width="2048" height="1536"/>
+    </resources>
 </document>
